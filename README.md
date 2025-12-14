@@ -83,8 +83,8 @@ contract Counter {
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/counter-dapp.git
-cd counter-dapp
+https://github.com/sanoojkavungal/counter_dapp.git
+cd counter_dapp
 ```
 
 ### 2️⃣ Open with a local server
