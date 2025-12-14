@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Counter dApp</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ethers must load FIRST -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.umd.min.js"></script>
+</head>
+
+<body>
+  <h1>🔥 Counter dApp 🔥</h1>
+
+  <p id="wallet">Not connected</p>
+
+  <p>Current Value:</p>
+  <p id="value">Loading...</p>
+
+  <div class="buttons">
+    <button id="incBtn" disabled>Increment</button>
+    <button id="decBtn" disabled>Decrement</button>
+    <button id="resetBtn" disabled>Reset</button>
+  </div>
+
+  <footer>Powered by ethers.js & Solidity | Sepolia Testnet</footer>
+
+  <!-- your app logic -->
+  <script src="app.js"></script>
+</body>
+</html>
